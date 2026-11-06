@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Artefactos de compilación
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Configuración local (ruta del SDK, claves)
+local.properties
+*.jks
+*.keystore
+
+# Logs y volcados de memoria
+*.log
+*.hprof
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

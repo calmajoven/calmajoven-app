@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">CalmaJoven EC</string>
+
+    <!-- Navegación inferior -->
+    <string name="nav_test">Test</string>
+    <string name="nav_guias">Guías</string>
+    <string name="nav_ayuda">Ayuda</string>
+
+    <!-- Barras superiores -->
+    <string name="titulo_test">CalmaJoven EC</string>
+    <string name="titulo_guias">Mis Guías</string>
+    <string name="titulo_ayuda">Red de Apoyo</string>
+
+    <!-- Pantalla 1: Test -->
+    <string name="asistente_nombre">Asistente CalmaJoven</string>
+    <string name="asistente_saludo">Hola, estoy aquí para escucharte. Esto no es un diagnóstico clínico: es una guía para que te conozcas mejor.</string>
+    <string name="pregunta_estres">Del 1 al 10, ¿qué tan estresado te sientes hoy?</string>
+    <string name="campo_apodo">Tu apodo (opcional)</string>
+    <string name="campo_apodo_ayuda">No necesitamos tu nombre real.</string>
+    <string name="campo_edad">Edad (opcional)</string>
+    <string name="campo_edad_ayuda">Puedes mantenerla en reserva.</string>
+    <string name="campo_respuesta">Tu respuesta del 1 al 10</string>
+    <string name="campo_respuesta_ayuda">Pregunta obligatoria.</string>
+    <string name="opciones_rapidas">O elige una respuesta rápida:</string>
+    <string name="opcion_bajo">Bajo</string>
+    <string name="opcion_medio">Medio</string>
+    <string name="opcion_alto">Alto</string>
+    <string name="boton_evaluar">Ver mi resultado</string>
+    <string name="boton_nuevo_test">Hacer un nuevo test</string>
+    <string name="boton_ir_ayuda">Ver la red de apoyo</string>
+
+    <!-- Estados del diagnóstico -->
+    <string name="estado_idle">Cuando respondas, aquí verás tu resultado.</string>
+    <string name="estado_loading">Revisando tus respuestas…</string>
+    <string name="resultado_titulo">Tu resultado</string>
+    <string name="resultado_saludo">Hola, %1$s</string>
+    <string name="resultado_saludo_anonimo">Hola</string>
+    <string name="resultado_puntaje">Puntaje: %1$d de 10</string>
+    <string name="resultado_recomendacion">Recomendación</string>
+    <string name="resultado_aviso">Este resultado es orientativo. Si lo necesitas, en la pestaña Ayuda hay personas listas para escucharte.</string>
+    <string name="error_titulo">Revisa tus respuestas</string>
+
+    <!-- Mensajes de error (códigos emitidos por el ViewModel) -->
+    <string name="error_nivel_requerido">Falta responder la pregunta: escribe un número del 1 al 10 o elige Bajo, Medio o Alto.</string>
+    <string name="error_nivel_rango">El nivel de estrés va del 1 al 10.</string>
+    <string name="error_edad_invalida">La edad debe ser un número entre 10 y 99. Si prefieres, déjala vacía.</string>
+    <string name="error_desconocido">Algo salió mal. Inténtalo de nuevo.</string>
+
+    <!-- Diagnósticos -->
+    <string name="diagnostico_calma">Estado de Calma</string>
+    <string name="diagnostico_moderado">Estrés Moderado</string>
+    <string name="diagnostico_alto">Ansiedad Alta</string>
+
+    <!-- Recomendaciones -->
+    <string name="recomendacion_calma">Sigue con tus rutinas de descanso y date un momento al día para notar cómo te sientes.</string>
+    <string name="recomendacion_moderado">Pausas activas y ejercicio de respiración guiada.</string>
+    <string name="recomendacion_alto">Habla hoy con alguien de confianza o con un profesional. En la pestaña Ayuda tienes líneas gratuitas y psicólogos voluntarios.</string>
+
+    <!-- Pantalla 2: Guías e historial -->
+    <string name="titulo_ejercicios">Ejercicios recomendados para ti:</string>
+    <string name="ejercicios_vacio">Todavía no hay ejercicios disponibles.</string>
+    <string name="ejercicio_ver_pasos">Ver pasos</string>
+    <string name="ejercicio_ocultar_pasos">Ocultar pasos</string>
+    <string name="titulo_historial">Mis Diagnósticos Anteriores:</string>
+    <string name="historial_vacio">Aún no tienes diagnósticos. Haz tu primer test en la pestaña Test.</string>
+    <string name="historial_item">• %1$s: %2$s</string>
+    <string name="historial_puntaje">Puntaje %1$d/10</string>
+    <string name="fecha_hoy">Hoy</string>
+    <string name="fecha_ayer">Ayer</string>
+
+    <!-- Pantalla 3: Red de apoyo -->
+    <string name="sos_boton">SOS: Línea de Crisis EC</string>
+    <string name="sos_descripcion">Abre el marcador con el ECU 911. Tú decides si llamas.</string>
+    <string name="msp_boton">Ministerio de Salud Pública · 171</string>
+    <string name="titulo_psicologos">Psicólogos Voluntarios:</string>
+    <string name="psicologos_vacio">No hay psicólogos voluntarios disponibles en este momento.</string>
+    <string name="boton_chat">Ir al Chat</string>
+    <string name="chat_proximamente">El chat con %1$s llegará en una próxima versión.</string>
+    <string name="error_sin_marcador">Este dispositivo no puede abrir el marcador. Marca %1$s desde otro teléfono.</string>
+
+    <!-- Descripciones para lectores de pantalla -->
+    <string name="cd_asistente">Asistente virtual</string>
+    <string name="cd_telefono">Teléfono</string>
+    <string name="cd_psicologo">Psicólogo voluntario</string>
+    <string name="cd_seleccionado">Seleccionado</string>
+</resources>
